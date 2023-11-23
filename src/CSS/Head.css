@@ -1,0 +1,126 @@
+p,h1,h3{
+    text-align: left;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.post-container{
+    display: block;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    margin-left: 34%;
+    padding-top: 2%;
+    border-bottom: 2px solid gray;
+}
+.comment-container{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+}
+.navvv{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.course-l{
+    background-color: black;
+}
+.post-container input{
+    width: 88%;
+    height: 29px;
+    background: black;
+}
+.caption{
+    height: 10%;
+    overflow: scroll;
+}
+.img-container{
+    height: 66%;
+}
+.caption::-webkit-scrollbar {
+    display: none;
+  }
+  textarea:focus, input:focus {
+    color: white;
+}
+.post-container button{
+    height: 33px;
+    background: black;
+    color: white;
+}
+.img-container>img{
+    width: inherit;
+    height: inherit;
+    object-fit: fill;
+}
+.like-save-etc{
+    display: flex;
+    gap: 78%;
+}
+.like-save-etc>div{
+    display: flex;
+    width: 16%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section-spliter{
+    display: flex;
+}
+.comment-container{
+    position: absolute;
+    top: 10%;
+    width: 1200px;
+    height: 600px;
+    left: 10%
+
+}
+.comments-container{
+    padding: 2%;
+    background-color: black;
+    width: 36%;
+}
+.imgC{
+    width: 60%;
+    height: 600px;
+    object-fit: contain;
+    background: black;
+}
+.imgC>img{
+    width: inherit;
+    height: inherit;
+    object-fit: fill;
+}
+.c-tag{
+    text-align: end;
+}
+.pl{
+    height: 650px;
+    overflow: scroll;
+    margin-bottom: 2%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav >div{
+    display: flex;
+    gap: 37px;
+} 
+.create-class{
+   position: absolute;
+   width: 500px;
+   height: 500px;
+   background: black;
+   right: 1%;
+}
+.create-class>input{
+    width:90%;
+    height: 30px;
+    color: white;
+    background: black;
+    margin: 2%;
+    border: black;
+    border-bottom: 1px solid;
+}
